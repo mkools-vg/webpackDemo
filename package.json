@@ -1,0 +1,14 @@
+{
+  "name": "webpackDemo",
+  "version": "1.0.0",
+  "description": "A small projet to demonstrate an issue with webpack's DefinePlugin",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config ./webpack.config.js && node ./dist/main.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
